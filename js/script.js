@@ -3,7 +3,12 @@ function clicar(){
 	var val2 = document.getElementById('valor2').value; // valor2.value;
 	var res = similar(val1, val2);
 
-	result.innerHTML = `${res}`;
+
+	if (val1 != '' && val2 != '') {
+		result.innerHTML = `${res}`;
+	} else {
+		result.innerHTML = 'Preencha os dois campos!'
+	}
 }
 
 function similar(val1,val2) {
