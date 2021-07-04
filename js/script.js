@@ -17,7 +17,7 @@ function similar(val1,val2) {
 
 	var weight = equivalency / maxLength;
 
-	return (weight * 100) + "%";
+	return (weight * 100) + "% de igualdade!";
 }
 
 //alert(similar("test","tes"));
