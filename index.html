@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<meta charset="utf-8">
 	<title>Teste</title>
 	<link rel="stylesheet" type="text/css" href="./css/estilo.css">
 </head>
-
 <body>
 	<main>
 		<div class="container">
-			<div class="title"> SIMILAR STRING </div>
-			<div class="input">
-	            <label>Primeiro nome:</label>
-	            <input type="text" id="valor1">
+			<div class="title">SIMILAR STRING</div>
+			<div class="form">
+	            <label class="label">Primeiro nome:</label>
+				<label class="errorMsg" id="errorName1"></label>
+	            <input class="input" type="text" id="name1" placeholder="Ex: Joao">
+	            <label class="label">Segundo nome:</label>
+	            <div class="errorMsg" id="errorName2"></div>
+				<input class="input" type="text" id="name2" placeholder="Ex: Joao">
 	        </div>
-			<div class="input">
-	            <label>Segundo nome:</label>
-	            <input type="text" id="valor2">
-	        </div>
-			<button id="valor" onclick="clicar()">Resultado</button>
+			<button id="btn">Comparar</button>
 			<div class="result" id='result'></div>
 		</div>
 	</main>
 	<script type="text/javascript" src="./js/script.js"></script>
 </body>
-
 </html>

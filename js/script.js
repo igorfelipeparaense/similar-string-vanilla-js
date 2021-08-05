@@ -1,32 +1,37 @@
-function clicar(){
-	var val1 = document.getElementById('valor1').value; // valor1.value;
-	var val2 = document.getElementById('valor2').value; // valor2.value;
-	var res = similar(val1, val2);
+var btn = document.getElementById('btn');
 
+const comparar = () => {
+	var n1 = document.getElementById('name1').value; // valor1.value;
+	var n2 = document.getElementById('name2').value; // valor2.value;
+	var divErroN1 = document.getElementById('errorName1');
+	var divErroN2 = document.getElementById('errorName2');
+	var res = similar(n1, n2);
 
-	if (val1 != '' && val2 != '') {
-		result.innerHTML = `${res}`;
+	if (n1 != "" && n2 != "") {
+		document.getElementById('name1').value = "";
+		document.getElementById('name2').value = "";
+		result.textContent = `${res}`;
+		btn.textContent = "Comparar Novamente";
+		divErroN1.textContent = "";
+		divErroN2.textContent = "";
 	} else {
-		result.innerHTML = 'Preencha os dois campos!'
+		divErroN1.textContent = "campo obrigatório*";
+		divErroN2.textContent = "campo obrigatório*";
 	}
-}
+};
 
-function similar(val1,val2) {
+btn.addEventListener('click', comparar);
+
+function similar(n1,n2) {
 	var equivalency = 0;
-	var minLength = (val1.length > val2.length) ? val2.length : val1.length;
-	var maxLength = (val1.length < val2.length) ? val2.length : val1.length;
+	var minLength = (n1.length > n2.length) ? n2.length : n1.length;
+	var maxLength = (n1.length < n2.length) ? n2.length : n1.length;
 
 	for(var i = 0; i < minLength; i++) {
-		if(val1[i] == val2[i]) { equivalency++; }
+		if(n1[i] == n2[i]) { equivalency++; }
 	}
 
 	var weight = equivalency / maxLength;
 
-	return (weight * 100) + "% de igualdade!";
+	return (weight * 100).toFixed(1) + "% de igualdade!";
 }
-
-//alert(similar("test","tes"));
-// 75% alert(similar("test","test"));
-// 100% alert(similar("test","testt"));
-// 80% alert(similar("test","tess"));
-// 75%

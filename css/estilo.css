@@ -7,7 +7,6 @@ main {
 	justify-content: center;
 	align-items: center;
 }
-  
 .container {
 	display: flex;
 	flex-direction: column;
@@ -20,7 +19,6 @@ main {
 	box-shadow: 0 0 10px black;
 	margin-top: 28px;
 }
-  
 .title {
 	display: flex;
 	justify-content: center;
@@ -31,28 +29,36 @@ main {
 	border-bottom: solid 5px black;
 	margin-bottom: 20px;
 }
-  
-.input {
+.form {
 	display: flex;
+	flex-direction: column;
 	width: 300px;
-	height: 50px;
-	justify-content: space-between;
+	height: 220px;
+	padding: 10px;
+	justify-content: space-around;
 	align-items: center;
+	border-radius: 20px;
+	background-color: #347480;
 }
-.input input {
-	width: 200px;
-	height: 50px;
-	border-radius: 5px;
+.errorMsg {
+	font-size: 14px;
+	font-weight: bold;
+	color: red;
+}
+.input {
+	width: 90%;
+	height: 40px;
+	border-radius: 50px;
 	border:none;
 	outline: 0;
 	font: bold 1.5rem serif;
-	text-align: center;
+	background-color: #f6f6f6;
+	padding-left: 10px;
 }
-  
-.input label {
+.label {
 	font: bold 1.5rem serif;
+	padding-right: 10px;
 }
-  
 button {
 	width: 300px;
 	height: 40px;
@@ -63,7 +69,6 @@ button {
 	border-radius: 5px;
 	cursor: pointer;
 }
-  
 .result {
 	display: flex;
 	margin-top: 20px;
