@@ -17,22 +17,11 @@ Surgiu com a finalidade de voltar a estudar programação e colocar em prática.
 ```
 ## 🖼 Screenshot das telas da aplicação 
 
-<div>
-  <div>
-    <img src="https://user-images.githubusercontent.com/83182736/128566429-f699b703-17e1-4a66-8d9c-5ca8a7e1e62c.png" width="250px" />
-  </div>
-
-  <div>
-    <img src="https://user-images.githubusercontent.com/83182736/128567695-48dfec04-8138-4cee-98fe-f01e523d7160.png" width="250px" />
-  </div>
-
-  <div>
-    <img src="https://user-images.githubusercontent.com/83182736/128567724-99d71ea1-9568-4cff-989b-5e65a9daefc8.png" width="250px" />
-  </div>
-
-  <div>
-    <img src="https://user-images.githubusercontent.com/83182736/128567745-da838f4d-6c20-4003-9fae-a743a39bae44.png" width="250px" />
-  </div>
+<div display="inline">
+  <img src="https://user-images.githubusercontent.com/83182736/128566429-f699b703-17e1-4a66-8d9c-5ca8a7e1e62c.png" />
+  <img src="https://user-images.githubusercontent.com/83182736/128567695-48dfec04-8138-4cee-98fe-f01e523d7160.png" />
+  <img src="https://user-images.githubusercontent.com/83182736/128567724-99d71ea1-9568-4cff-989b-5e65a9daefc8.png" />
+  <img src="https://user-images.githubusercontent.com/83182736/128567745-da838f4d-6c20-4003-9fae-a743a39bae44.png" />
 </div
 <br/>
   
