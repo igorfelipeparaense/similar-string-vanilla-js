@@ -12,12 +12,13 @@ Compara a igualdade entre duas Strings feito com JavaScript puro.
 Surgiu com a finalidade de voltar a estudar programação e colocar em prática.
 
 -Simples feito com HTML, CSS e JavaScript Puro nessa versão.
--Basicamente o usuário informa dois valores de texto para que possa ser calculado o percentual de semelhança.
+-Basicamente o usuário informa dois valores de texto.
+-Para que possa ser calculado o percentual de semelhança.
 
 ```
 ## 🖼 Screenshot das telas da aplicação 
 
-<div display="inline">
+<div>
   <img src="https://user-images.githubusercontent.com/83182736/128566429-f699b703-17e1-4a66-8d9c-5ca8a7e1e62c.png" />
   <img src="https://user-images.githubusercontent.com/83182736/128567695-48dfec04-8138-4cee-98fe-f01e523d7160.png" />
   <img src="https://user-images.githubusercontent.com/83182736/128567724-99d71ea1-9568-4cff-989b-5e65a9daefc8.png" />
