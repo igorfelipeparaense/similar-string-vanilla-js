@@ -65,5 +65,5 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
     </tr>
 </table>
 <h4 align="center">
-   Feito com 💜 by  <a href="https://www.linkedin.com/in/igor-felipe-5263b8212/" target="_blank"> Igor Felipe </a>
+   Feito com 💜 by  <a href="https://www.linkedin.com/in/igorfelipeparaense/" target="_blank"> Igor Felipe </a>
 </h4>
