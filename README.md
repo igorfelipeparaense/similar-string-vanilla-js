@@ -30,7 +30,7 @@ Surgiu com a finalidade de voltar a estudar programação e colocar em prática.
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/pacotee/similar-string-vanilla-js
+git clone https://github.com/igorfelipeparaense/similar-string-vanilla-js
 
 # Entrar numa IDE de sua preferência 
 
@@ -56,7 +56,7 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 <table align="center">
     <tr>
         <td align="center">
-            <a href="https://github.com/pacotee">
+            <a href="https://github.com/igorfelipeparaense">
                 <img src="https://user-images.githubusercontent.com/83182736/128571620-d38188d7-0a0c-4d80-a1cb-84cc174f76c3.jpeg" width="150px;" alt="Image do Igor Felipe" />
                 <br />
                 <sub><b>Igor Felipe</b></sub>
